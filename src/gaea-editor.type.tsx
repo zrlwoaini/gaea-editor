@@ -1,10 +1,10 @@
-import GaeaComponents from 'gaea-basic-components';
-
+//import GaeaComponents from 'gaea-basic-components';
+import CustomComponents from './components/antd';
 export class Props {
   /**
    * React class you want to drag with.
    */
-  public componentClasses?: Array<React.ComponentClass<IGaeaProps>> = GaeaComponents;
+  public componentClasses?: Array<React.ComponentClass<IGaeaProps>> = CustomComponents;
   /**
    * Trigger when onSave button clicked.
    */
@@ -44,4 +44,4 @@ export class Props {
   public onComponentDragStart?: IOnComponentDragStart = () => null;
 }
 
-export class State {}
+export class State { }

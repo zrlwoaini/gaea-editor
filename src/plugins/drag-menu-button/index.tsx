@@ -5,9 +5,9 @@ import Icon from '../../components/icon/src';
 import { StoreProps } from '../../stores';
 import * as Styled from './style';
 
-export class Props extends StoreProps<void, void> {}
+export class Props extends StoreProps<void, void> { }
 
-export class State {}
+export class State { }
 
 @Connect
 class DragMenuButton extends React.Component<Props, State> {

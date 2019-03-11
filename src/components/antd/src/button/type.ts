@@ -120,6 +120,6 @@ export class Props {
   };
 }
 
-export class State { }
+export class State {}
 
 type ButtonType = 'primary' | 'ghost' | 'dashed' | 'danger';
